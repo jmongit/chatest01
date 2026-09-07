@@ -45,7 +45,7 @@ def chat(message, history):
 demo = gr.ChatInterface(
     fn=chat,
     title="chat test",
-    description="会話履歴ありのテスト"
+    description="会話連続のテスト"
 )
 
 port = int(os.environ.get("PORT", 10000))
